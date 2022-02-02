@@ -1,0 +1,27 @@
+Para criar o projeto com o template de EJS
+express --ejs nomeprojeto
+
+npm install
+
+Instalar Bower para auxilio no front-end
+npm install bower -g
+
+Setar a variavel de ambiente 
+set DEBUG=saboroso:* & npm start
+
+Instalar nodemon para o servidor atualizar automaticamente
+npm install nodemon -g
+
+
+CASO OCORRA ERRO NO PLUGIN DO NODE 
+ALTER USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+ALTER USER 'user'@'127.0.0.1' IDENTIFIED WITH mysql_native_password BY 'password';
+
+
+Pacotes para trabalhar com session
+npm install --save express-session connect-redis
+
+
+Intalar formidable
+npm install formidable@1.2.1 --save
